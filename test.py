@@ -8,4 +8,4 @@ url = urllib2.urlopen("http://www.google.com")
 print "page opened"
 page = BeautifulSoup(url)
 tables = page.findAll('table')
-
+print "Tables are ",tables
