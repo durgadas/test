@@ -9,3 +9,4 @@ print "page opened"
 page = BeautifulSoup(url)
 tables = page.findAll('table')
 print "Tables are ",tables
+print "welcome"
