@@ -19,5 +19,11 @@ class my_class:
 	def show(self,n):
 		print n
 
-x = my_class()
-x.show(200)
+class inherit_class(my_class):
+	def __init__(self):	
+		print "This is inherited class"
+
+#x = my_class()
+#x.show(200)
+x = inherit_class()
+x.show(100)
