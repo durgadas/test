@@ -3,7 +3,7 @@ import os
 import sys
 import urllib2
 import urllib
-
+import string
 #url = urllib2.urlopen("http://www.tatadocomo.com/online-recharge.aspx")
 #print "page opened"
 #page = BeautifulSoup(url)
