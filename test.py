@@ -27,3 +27,4 @@ class inherit_class(my_class):
 #x.show(200)
 x = inherit_class()
 x.show(100)
+print "now data updated"
