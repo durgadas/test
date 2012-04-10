@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from BeautifulSoup  import BeautifulSoup
 import os
 import sys
@@ -28,3 +29,7 @@ class inherit_class(my_class):
 x = inherit_class()
 x.show(100)
 print "now data updated"
+=======
+#This is comment added by program
+print "Durgadas"
+>>>>>>> b0a827209bba12ddae91168b5b1b733dad888046
